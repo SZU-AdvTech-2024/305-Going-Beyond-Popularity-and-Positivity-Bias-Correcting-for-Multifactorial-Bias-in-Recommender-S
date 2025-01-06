@@ -1,16 +1,8 @@
 @inproceedings{REPO305,
     author = "Huang, Jin and Oosterhuis, Harrie and Mansoury, Masoud and van Hoof, Herke and de Rijke, Maarten",
-    address = "New York, NY, USA",
     booktitle = "Proceedings of the 47th International ACM SIGIR Conference on Research and Development in Information Retrieval",
-    doi = "10.1145/3626772.3657749",
-    isbn = "9798400704314",
-    keywords = "propensity estimation, recommender systems, unbiased learning",
-    location = "Washington DC, USA",
     numpages = "11",
     pages = "416–426",
-    publisher = "Association for Computing Machinery",
-    series = "SIGIR '24",
     title = "{Going Beyond Popularity and Positivity Bias: Correcting for Multifactorial Bias in Recommender Systems}",
-    url = "https://doi.org/10.1145/3626772.3657749",
     year = "2024"
 }
