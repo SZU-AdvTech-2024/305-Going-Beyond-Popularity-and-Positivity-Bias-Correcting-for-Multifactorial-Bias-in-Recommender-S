@@ -1,0 +1,76 @@
+nohup: ignoring input
+/home/yrl/MultfactorialBias
+@@@@@@@@@@@ The dataset we used is yahoo
+!!!! The current task is rating prediction task !!!!
+The numbers of users and items are 15400 and 1000
+The numbers of training and validation set are 249638 and 62066
+@@@@@@@@@@@ The CF model we used is VAE
+{'optim': 'adam', 'debiasing': 'none', 'lr': 1e-05, 'reg': 1e-07, 'dim': 128, 'plot': False, 'SNIPS': False, 'epochs': 2000, 'mode': 'mse', 'patience': 5, 'train_on_testusers_only': True, 'fine_tune_smoothing_in_MCAR': False}
+!!!!!!! Laplace smoothing, alpha1&2 are 2 10
+Proposity clipping: [0.001000, 0.200000]
+!!!!!!! Normalize inversed p_O_IY per item
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 311
+{'RMSE_U': 1.1147507624870483, 'RMSE_I': 1.1686975864807383, 'rmse': 1.1899868934496936, 'mse': 1.4160688065820524, 'mae': 0.9667311120394377, 'ndcg': 0.9139461930429436, 'valid_loss': 49.01607871055603}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 313
+{'RMSE_U': 1.114095045604637, 'RMSE_I': 1.1675942198553972, 'rmse': 1.1891288318738251, 'mse': 1.414027378793608, 'mae': 0.9660489963825138, 'ndcg': 0.9137417118649251, 'valid_loss': 49.06733727455139}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 296
+{'RMSE_U': 1.1206310037158538, 'RMSE_I': 1.1735726309427923, 'rmse': 1.1953511502381204, 'mse': 1.4288643723755978, 'mae': 0.9739485125310908, 'ndcg': 0.9129990955723195, 'valid_loss': 49.04143166542053}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 314
+{'RMSE_U': 1.1134368142087534, 'RMSE_I': 1.1676010238020826, 'rmse': 1.18877789353917, 'mse': 1.413192880167426, 'mae': 0.9650164821300812, 'ndcg': 0.9145300504073158, 'valid_loss': 49.11013603210449}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 318
+{'RMSE_U': 1.115709311716266, 'RMSE_I': 1.169377272061815, 'rmse': 1.1909528739471966, 'mse': 1.4183687479630873, 'mae': 0.9665024315174163, 'ndcg': 0.9132936462881234, 'valid_loss': 49.09759855270386}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 316
+{'RMSE_U': 1.1109530930721954, 'RMSE_I': 1.164812676237325, 'rmse': 1.186147543149419, 'mse': 1.4069459941194027, 'mae': 0.9622004876249848, 'ndcg': 0.9142798306526141, 'valid_loss': 49.00361394882202}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 296
+{'RMSE_U': 1.1257085554418766, 'RMSE_I': 1.1791959032162371, 'rmse': 1.200665840596154, 'mse': 1.4415984607744692, 'mae': 0.9793129965592753, 'ndcg': 0.9119346791765912, 'valid_loss': 49.132572412490845}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 309
+{'RMSE_U': 1.1165720747893138, 'RMSE_I': 1.1704265800224185, 'rmse': 1.191900327957369, 'mse': 1.420626391784884, 'mae': 0.9682683105762654, 'ndcg': 0.914148158766628, 'valid_loss': 49.03886437416077}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 311
+{'RMSE_U': 1.1156528870904636, 'RMSE_I': 1.1686657662816302, 'rmse': 1.1906989713014022, 'mse': 1.4177640402582175, 'mae': 0.9665733707710965, 'ndcg': 0.9134124018884472, 'valid_loss': 49.13511610031128}
+---------------------- annel_cap: 0.80  ------------------------
+---------------------- total_anneal_steps: 0  ------------------------
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 311
+{'RMSE_U': 1.1154772104714479, 'RMSE_I': 1.1689693883521959, 'rmse': 1.190772364558231, 'mse': 1.417938824195601, 'mae': 0.9672711016195787, 'ndcg': 0.9136558943051197, 'valid_loss': 48.92392587661743}
+The avg results on testset for dict_keys(['RMSE_U', 'RMSE_I', 'rmse', 'mse', 'mae', 'ndcg', 'valid_loss'])  are  1.1163 (0.0039) 1.1699 (0.0038) 1.1914 (0.0038) 1.4195 (0.0091) 0.9682 (0.0046) 0.9136 (0.0007) 49.0567 (0.0626)
+
+real	88m45.812s
+user	186m49.467s
+sys	13m43.582s

@@ -1,0 +1,10 @@
+--dataset_name yahoo --debiasing none --lr 1e-5 --reg 1e-4 --dim 128
+--dataset_name yahoo --debiasing popularity --lr 1e-5 --reg 1e-4 --dim 32
+--dataset_name yahoo --debiasing positivity --lr 1e-5 --reg 1e-4 --dim 128
+--dataset_name yahoo --debiasing mf --lr 1e-5 --reg 1e-4 --dim 32
+--dataset_name yahoo --debiasing multifactorial --lr 1e-5 --reg 1e-4 --dim 32
+--dataset_name coat --debiasing none --lr 1e-4 --reg 1e-3 --dim 128
+--dataset_name coat --debiasing popularity --lr 1e-5 --reg 1e-3 --dim 128
+--dataset_name coat --debiasing positivity --lr 1e-5 --reg 1e-6 --dim 128
+--dataset_name coat --debiasing mf --lr 1e-4 --reg 1e-3 --dim 128
+--dataset_name coat --debiasing multifactorial --lr 1e-3 --reg 1e-3 --dim 128

@@ -1,0 +1,97 @@
+nohup: ignoring input
+/home/yrl/MultfactorialBias
+$$$$$$ When learning i-related params and learning u-related params, we both use P(O|R, I) 
+@@@@@@@@@@@ The dataset we used is coat
+!!!! The current task is rating prediction task !!!!
+The numbers of users and items are 290 and 300
+The numbers of training and validation set are 5552 and 1408
+************ Validation: Using average loss over items ************ 
+{'optim': 'adam', 'debiasing': 'positivity', 'lr': 1e-05, 'reg': 1e-06, 'dim': 128, 'plot': False, 'SNIPS': False, 'epochs': 2000, 'mode': 'mse', 'patience': 5, 'train_on_testusers_only': True, 'smoothing_heat_map': False, 'fine_tune_smoothing_in_MCAR': False}
+!!!!!!! Laplace smoothing, alpha1&2 are 3 1
+Proposity clipping: [0.007299, 0.100000]
+!!!!!!! Normalize inversed p_O_IY per item
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1233
+{'RMSE_U': 1.040768354766425, 'RMSE_I': 1.059952275971854, 'rmse': 1.0839528924120394, 'mse': 1.1749538729684263, 'mae': 0.8760336916416119, 'ndcg': 0.8595268142650646, 'valid_loss': 1.1003634}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1471
+{'RMSE_U': 1.0324385427213856, 'RMSE_I': 1.0512056856038174, 'rmse': 1.0771872641416553, 'mse': 1.1603324020289842, 'mae': 0.8610366237405528, 'ndcg': 0.8622485702103357, 'valid_loss': 1.0935568}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1806
+{'RMSE_U': 1.0314562038251631, 'RMSE_I': 1.0501425087241092, 'rmse': 1.0773757658946852, 'mse': 1.1607385409371593, 'mae': 0.8539616811351899, 'ndcg': 0.8595658374574046, 'valid_loss': 1.0980408}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1590
+{'RMSE_U': 1.0501864664984772, 'RMSE_I': 1.0665462659011182, 'rmse': 1.091412424743395, 'mse': 1.191181080884257, 'mae': 0.8860020710426009, 'ndcg': 0.8578633369654334, 'valid_loss': 1.1214845}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1492
+{'RMSE_U': 1.036950284542002, 'RMSE_I': 1.054572750705998, 'rmse': 1.082166775104854, 'mse': 1.1710849291408398, 'mae': 0.8631623148854471, 'ndcg': 0.8588432928995613, 'valid_loss': 1.1031108}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1541
+{'RMSE_U': 1.0396974643757457, 'RMSE_I': 1.0593873943290533, 'rmse': 1.08592459711577, 'mse': 1.1792322306210477, 'mae': 0.8661432307627466, 'ndcg': 0.8593455136799986, 'valid_loss': 1.1008193}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1477
+{'RMSE_U': 1.0389274383631066, 'RMSE_I': 1.057849952785856, 'rmse': 1.0843432471489303, 'mse': 1.175800277637486, 'mae': 0.866830471648365, 'ndcg': 0.8624093457632344, 'valid_loss': 1.0976719}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1790
+{'RMSE_U': 1.0328224872228502, 'RMSE_I': 1.0510637760035688, 'rmse': 1.0785828896298801, 'mse': 1.1633410498023424, 'mae': 0.8559122790510838, 'ndcg': 0.8614548070425497, 'valid_loss': 1.088532}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1510
+{'RMSE_U': 1.0358623543711585, 'RMSE_I': 1.0540410316184154, 'rmse': 1.0800881163945928, 'mse': 1.1665903391768195, 'mae': 0.8630875549000553, 'ndcg': 0.8609579550169261, 'valid_loss': 1.0947312}
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+--------- Initialize the weights with the mean equaling to sqrt(1.0/n_factors) !!!!
+  0%|          | 0/2000 [00:00<?, ?it/s]
+&&&&&&&&&& Do shuffle per epoch
+Early stopped at epoch 1639
+{'RMSE_U': 1.0313861464008525, 'RMSE_I': 1.0504729527018404, 'rmse': 1.0763759673801692, 'mse': 1.1585852231535951, 'mae': 0.8551142466947054, 'ndcg': 0.8601383552497462, 'valid_loss': 1.0922632}
+The avg results on testset for dict_keys(['RMSE_U', 'RMSE_I', 'rmse', 'mse', 'mae', 'ndcg', 'valid_loss'])  are  1.0370 (0.0055) 1.0555 (0.0051) 1.0817 (0.0045) 1.1702 (0.0098) 0.8647 (0.0094) 0.8602 (0.0014) 1.0991 (0.0086)
+
+real	21m1.107s
+user	15m14.079s
+sys	0m32.329s
